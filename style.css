@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #9ecee0;
+    border: 1.5px solid #3f976e;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #56a3c2;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2.3em;
+    letter-spacing: 0.15cm;
+    transition: 0.7s ease;
+}
+
+.logo:hover {
+    color: #acae9e;
+    transform: scale(1.2);
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #56a3c2;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-left: 30px;
+    display: inline-block;
+    transition: 0.7s ease;
+}
+
+.navigation a:hover {
+    color: #cfcdc6;
+    transform: scale(1.2);
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: url(pexels-scott-webb-1029618.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    margin-top: 20px;
+    color: #3f976e;
+    font-size: 1.4em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6fa5a5;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.main h3 {
+    color: #55b88a;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+
+.main-btn a{
+    color: black;
+    background-color: #e6ffff36;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 1em 2em;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transition: 0.7s ease;
+}
+
+.main-btn a:hover {
+    background-color: #acae9e9d;
+    transform: scale(1.2);
+}
+
+.social-icons a {
+    display: inline-block;
+    color: #000000;
+    font-size: 1.7em;
+    padding-right: 10px;
+    transition: 0.7s ease;
+}
+
+.social-icons a:hover {
+    color: #59b2c2f6;
+    transform: scale(1.2);
+}
+
+section{
+    padding: 80px;
+}
+
+.Title{
+    border: 1.5px solid #3f976e;
+    border-radius: 15px; 
+    color: black;
+    background-color: #6fa5a57c;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 1em 2em;
+    letter-spacing: 2px;
+    margin: 30px auto;
+    width: fit-content;
+}
+
+.AboutMe, .Education, .Skills, .MyProjects, .Contact, .Top{
+    margin: auto;
+    background-color: #b1d8e7;
+}
+
+.card{
+    border: 2px solid #3f976e;
+    border-radius: 15px; 
+    display: flex;
+    justify-content: center;
+    background-color: #6fa5a57c;
+    padding: 1em 2em;
+    transition: 0.7s ease;
+    margin: 30px auto;
+    width: 100%;
+}
+
+.card:hover{
+    transform: scale(1.06);
+    background-color: #3f976e83;
+}
+
+.info{
+    margin: 10px;
+    font-size: 1.6em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #053a12;
+}
+
+.MyProjects img{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    padding:20px 20px 20px 20px;
+}
+
+.Top a{
+    display: inline-block;
+    color: #000000;
+    font-size: 1.7em;
+    padding: 10px 15px;
+    margin: 10px 10px;
+    border: 1.5px solid #053a12;
+    border-radius: 10px;
+    transition: 0.7s ease;
+}
+
+.Top a:hover {
+    color: #59b2c288;
+    transform: scale(1.2);
+}
