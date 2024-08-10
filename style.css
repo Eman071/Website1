@@ -176,11 +176,10 @@ section{
 .Top a{
     display: inline-block;
     color: #000000;
-    font-size: 1.7em;
     padding: 10px 15px;
     margin: 10px 10px;
     border: 1.5px solid #053a12;
-    border-radius: 10px;
+    border-radius: 60%;
     transition: 0.7s ease;
 }
 
